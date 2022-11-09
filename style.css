@@ -1,0 +1,45 @@
+div img{
+    width: 300px;;
+    height:300px;
+}
+
+.absol{
+    position: absolute;
+    top: 10px;
+
+}
+
+.abs{
+    position: absolute;
+    bottom: 10px;
+    background-color: blue;
+    width: 45%;
+    height:5%;
+    color: aliceblue;
+}
+
+.abs-right{
+position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    width: 20%;
+    border-radius: 5px;
+    color: black;
+}
+
+.contact-list{
+    position: absolute;
+    top: 400px;
+    overflow-y: scroll ;
+    width: 300px;
+    height:100px;
+    z-index: 5;
+}
+
+.stick{
+    position : sticky;
+	top :0;
+  color: white;
+  background-color:  chartreuse;
+}
